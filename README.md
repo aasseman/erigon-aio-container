@@ -25,7 +25,7 @@ docker build -t erigon-aio:version .
 The container's entrypoint is `supervisord`, so no need to give arguments. For example:
 ```sh
 docker run \
-    -v /path/to/erigon/data:/root/.local/share/erigon \
+    -v /path/to/erigon/data:/home/erigon/.local/share/erigon \
     -p 30303:30303/tcp \
     -p 30303:30303/udp \
     -p 30304:30304/tcp \
