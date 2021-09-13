@@ -1,6 +1,6 @@
 # thorax/erigon is the official Erigon DockerHub repo according to 
 # https://github.com/ledgerwatch/erigon/releases/tag/v2021.07.03
-FROM thorax/erigon:v2021.09.01
+FROM thorax/erigon:v2021.09.02
 
 USER root
 RUN apk update && apk add --no-cache supervisor
